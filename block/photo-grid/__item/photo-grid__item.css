@@ -1,4 +1,6 @@
 .photo-grid__item{
-    width: 284px;
+    /* width: 284px; */
     position: relative;
+    width: 100%;
+    background-size: cover;
 }

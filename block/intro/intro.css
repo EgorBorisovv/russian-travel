@@ -1,10 +1,11 @@
 .intro{
-    margin:0;
+    margin:0 ;
     position:relative;
     width: 690px;
     min-height: 429px;
     display: flex;
     flex-direction: column;
     margin-top:92px;
-    margin-left:148px;
+    /* margin-left:14.453125% ; */
+    align-self: flex-start;
 }

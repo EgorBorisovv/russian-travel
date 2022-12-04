@@ -7,5 +7,8 @@
     font-size: 18px;
     line-height: 163%;
     color: #FFFFFF;
-    margin-top: 48px;
+    margin-top: 26px;
+}
+.place__paragraph:first-of-type{
+    margin-top: 0;
 }

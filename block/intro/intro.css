@@ -1,11 +1,13 @@
 .intro{
-    margin:0 ;
-    position:relative;
-    width: 690px;
-    min-height: 429px;
+    margin:0 auto;
+    max-width: 984px;
     display: flex;
     flex-direction: column;
     margin-top:92px;
-    /* margin-left:14.453125% ; */
-    align-self: flex-start;
+}
+@media screen and (max-width:1024) {
+    .intro{
+        max-width: 690px;
+        padding: 0 48px;
+    }
 }

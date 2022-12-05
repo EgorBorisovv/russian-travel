@@ -1,6 +1,5 @@
 .lead__main-pic{
-    z-index:1;
-    margin:0;
-    position:absolute;
-
+    position: relative;
+    margin-top: 64px;
+    width: 100%;
 }

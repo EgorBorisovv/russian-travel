@@ -1,7 +1,7 @@
-.place__info{
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
-    row-gap: 26px;
+.place__info {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  row-gap: 26px;
 }

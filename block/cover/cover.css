@@ -1,9 +1,31 @@
-.cover{
-    margin: 0 auto;
-    position: relative;
-    margin-top: 92px;
-    width:90%;
-    min-height: 740px;
-    background-size: cover;
+.cover {
+  margin: 0 auto;
+  position: relative;
+  margin-top: 92px;
+  max-width: 1184px;
+  height: 740px;
 }
 
+@media screen and (max-width:1024px) {
+  .cover {
+    max-width: 1024px;
+    height: 640px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .cover {
+    max-width: 768px;
+    height: 480px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .cover {
+    max-width: 320px;
+    padding: 0;
+    height: 200px;
+  }
+}

@@ -1,18 +1,19 @@
-.header__link{
-    display: flex;
-    margin:0;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    color: #FFFFFF;
-    text-decoration: none;
-    margin-bottom: 0;
-    align-self: flex-end;
-    box-sizing: border-box;
-    flex-wrap: wrap;
+.header__link {
+  display: flex;
+  margin: 0;
+  font-family: 'Inter', "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-bottom: 0;
+  align-self: flex-end;
+  box-sizing: border-box;
+  flex-wrap: wrap;
 }
-.header__link:hover{
-    text-decoration: underline;
+
+.header__link:hover {
+  text-decoration: underline;
 }

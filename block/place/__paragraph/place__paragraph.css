@@ -1,14 +1,10 @@
-.place__paragraph{
-    margin:0;
-    position: relative;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 163%;
-    color: #FFFFFF;
-    margin-top: 26px;
-}
-.place__paragraph:first-of-type{
-    margin-top: 0;
+.place__paragraph {
+  margin: 0;
+  position: relative;
+  font-family: 'Inter', "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  color: #FFFFFF;
 }

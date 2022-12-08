@@ -1,8 +1,14 @@
-.footer__links{
-    margin: 0;
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(5,auto);
-    column-gap:18px ;
+.footer__links {
+  margin: 0;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+
 }
 
+@media screen and (max-width:320px) {
+  .footer__links {
+    flex-direction: column;
+    margin-bottom: 48px;
+  }
+}

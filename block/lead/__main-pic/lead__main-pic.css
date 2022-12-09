@@ -3,3 +3,8 @@
   margin-top: 64px;
   width: 100%;
 }
+@media screen and (max-width:690px) {
+  .lead__main-pic{
+    margin-top: 40px;
+  }
+}

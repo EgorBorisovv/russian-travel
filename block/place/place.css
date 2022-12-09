@@ -2,7 +2,6 @@
   position: relative;
   margin-top: 80px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(460px 1fr));
   column-gap: 40px;
   row-gap: 48px;
 }
@@ -13,14 +12,12 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    grid-template-columns: repeat(auto-fit, minmax(440px 1fr));
     grid-column-gap: 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
-    grid-template-columns: repeat(auto-fit, minmax(340px 1fr));
     grid-column-gap: 28px;
     margin-top: 73px;
   }

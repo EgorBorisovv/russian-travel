@@ -5,3 +5,8 @@
   grid-template-rows: auto auto;
   row-gap: 26px;
 }
+@media screen  and (max-width:690px){
+    .place__info{
+      margin-top: 32px;
+    }
+}

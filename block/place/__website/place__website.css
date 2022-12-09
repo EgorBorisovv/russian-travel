@@ -6,8 +6,9 @@
   justify-self: start;
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:690px) {
   .place__website {
     align-self: start;
+    margin-top: 32px;
   }
 }

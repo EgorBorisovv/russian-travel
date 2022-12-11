@@ -6,8 +6,15 @@
   max-width: 460px;
   width: 100%;
 }
+@media screen and (max-width:768px){
+  .place__image{
+    margin-top: 48px;
+    max-width: 340px;
+  }
+}
 @media screen and (max-width:690px){
     .place__image{
       margin-top: 32px;
     }
 }
+

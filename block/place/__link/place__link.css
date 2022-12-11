@@ -11,6 +11,10 @@
 
 }
 
+.place__link{
+  margin-top: 12px;
+}
 .place__link:hover {
   opacity: .8;
+
 }

@@ -7,10 +7,11 @@
 @import url(../block/header/__logo/header__logo.css);
 @import url(../block/header/__links/header__links.css);
 @import url(../block/header/__link/header__link.css);
+@import url(../block/header/__link/_active/header__link_active.css);
+@import url(../block/main/main.css);
 @import url(../block/lead/lead.css);
 @import url(../block/lead/__title/lead__title.css);
 @import url(../block/lead/__subtitle/lead__subtitle.css);
-@import url(../block/lead/__image/lead__image.css);
 @import url(../block/lead/__main-pic/lead__main-pic.css);
 @import url(../block/lead/__caption/lead__caption.css);
 @import url(../block/intro/intro.css);
@@ -35,6 +36,3 @@
 @import url(../block/footer/__links/footer__links.css);
 @import url(../block/footer/__link/footer__link.css);
 @import url(../block/footer/__copyright/footer__copyright.css);
-/* *{
-  border: 1px solid red;
-} */

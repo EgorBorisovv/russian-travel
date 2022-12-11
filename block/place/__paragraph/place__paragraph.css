@@ -8,10 +8,18 @@
   line-height: 163%;
   color: #FFFFFF;
 }
+@media screen and (max-width:768px) {
+  .place__paragraph{
+      margin-bottom: 25px;
+      font-size: 16px;
+  }
+  .place__paragraph:last-of-type{
+    margin-bottom: 0;
+  }
+}
 @media screen and (max-width:690px) {
   .place__paragraph{
       margin-bottom: 25px;
-      margin-left: 16px;
   }
   .place__paragraph:last-of-type{
     margin-bottom: 0;

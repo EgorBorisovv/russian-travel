@@ -1,15 +1,30 @@
 .place__info {
   position: relative;
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
+  max-width: 484px;
+  /* grid-template-columns: 1fr; */
   grid-template-rows: auto auto;
-  row-gap: 26px;
+  row-gap:0;
+}
+@media screen and (max-width:1024px) {
+  .place__info{
+    max-width: 456px;
+  }
+}
+@media screen and (max-width:768px) {
+  .place__info{
+    max-width: 352px;
+    margin-top: 48px;
+  }
 }
 @media screen  and (max-width:690px){
     .place__info{
       margin-top: 32px;
-      row-gap: 26px;
       display: flex;
       flex-direction: column;
+      max-width: 288px;
+      margin-left: 16px;
+      
     }
 }

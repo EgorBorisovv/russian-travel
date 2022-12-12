@@ -6,21 +6,25 @@
   background: rgba(42, 44, 47, .3);
   justify-content: center;
 }
-@media screen and (max-width:1024px){
-    .cover__overlay{
-        min-height:640px ;
-    }
+
+@media screen and (max-width:1024px) {
+  .cover__overlay {
+    min-height: 640px;
+  }
 }
-@media screen and (max-width:768px){
-    .cover__overlay{
-        min-height:480px ;
-    }
+
+@media screen and (max-width:768px) {
+  .cover__overlay {
+    min-height: 480px;
+  }
 }
-@media screen and (max-width:690px){
-    .cover__overlay{
-        min-height:200px ;
-    }
+
+@media screen and (max-width:690px) {
+  .cover__overlay {
+    min-height: 200px;
+  }
 }
+
 .cover__overlay:hover {
   background: rgba(42, 44, 47, .8);
 }

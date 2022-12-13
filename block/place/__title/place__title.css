@@ -9,7 +9,8 @@
   line-height: 76px;
   color: #FFFFFF;
 }
-@media screen and (max-width:1024px) {
+
+@media screen and (max-width: 1279px) {
   .place__title{
     max-width: 440px;
   }
